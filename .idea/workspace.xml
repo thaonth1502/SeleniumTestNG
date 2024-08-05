@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai11_AssertTestNG/DemoHardAssert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai11_AssertTestNG/DemoSoftAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai12_Actions_Robot_Class/DemoActionsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai12_Actions_Robot_Class/DemoRobotClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "thaonth1502"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thaonth1502&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/thaonth1502/SeleniumTestNG.git",
-    "accountId": "8de03b1f-c470-49aa-93cb-0a5e47766397"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thaonth1502/SeleniumTestNG.git&quot;,
+    &quot;accountId&quot;: &quot;8de03b1f-c470-49aa-93cb-0a5e47766397&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2k84TVM2H4BMGjQZi1EaDGbLsDw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,16 +52,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.D:/SeleniumJava/SeleniumTestNG/suite/SuiteAnnotation.xml.executor": "Run",
+    "TestNG.DemoActionsClass.TestClick.executor": "Run",
+    "TestNG.DemoActionsClass.TestSendKeys.executor": "Run",
+    "TestNG.DemoActionsClass.contextClick.executor": "Run",
+    "TestNG.DemoActionsClass.copyAndPaste.executor": "Run",
+    "TestNG.DemoActionsClass.demoDragAndDropWithActionClass.executor": "Run",
+    "TestNG.DemoActionsClass.doubleClick.executor": "Run",
+    "TestNG.DemoActionsClass.inputTextUppercase.executor": "Run",
+    "TestNG.DemoActionsClass.moveToElement.executor": "Run",
+    "TestNG.DemoActionsClass.scrollPageDownAndUp.executor": "Run",
+    "TestNG.DemoActionsClass.takePageScreenshot.executor": "Run",
     "TestNG.DemoAnnotation (1).executor": "Run",
     "TestNG.DemoAnnotation.executor": "Run",
     "TestNG.DemoCRM_BaseTest.executor": "Run",
     "TestNG.DemoHardAssert.executor": "Run",
     "TestNG.DemoHardAssert.testCheckPageTitle.executor": "Run",
+    "TestNG.DemoRobotClass.inputText.executor": "Run",
     "TestNG.DemoSoftAssert.executor": "Run",
     "TestNG.DemoSoftAssert.testCheckPageTitle.executor": "Run",
     "TestNG.ManageCustomer.testCreateCustomer.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/AnhTester_SeleniumJava/SeleniumTestNG"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,52 +81,18 @@
       <recent name="com.thaonth.Bai11_AssertTestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DemoHardAssert.testCheckPageTitle">
-    <configuration name="DemoCRM_BaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DemoActionsClass.takePageScreenshot (1)">
+    <configuration name="DemoActionsClass.copyAndPaste" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai10_AnnotationTestNG.*" />
+          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai10_AnnotationTestNG" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai10_AnnotationTestNG.DemoCRM_BaseTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoHardAssert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai11_AssertTestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai11_AssertTestNG" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai11_AssertTestNG.DemoHardAssert" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoHardAssert.testCheckPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai11_AssertTestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai11_AssertTestNG" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai11_AssertTestNG.DemoHardAssert" />
-      <option name="METHOD_NAME" value="testCheckPageTitle" />
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoActionsClass" />
+      <option name="METHOD_NAME" value="copyAndPaste" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,34 +100,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSoftAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoActionsClass.scrollPageDownAndUp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai11_AssertTestNG.*" />
+          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai11_AssertTestNG" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai11_AssertTestNG.DemoSoftAssert" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoActionsClass" />
+      <option name="METHOD_NAME" value="scrollPageDownAndUp" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSoftAssert.testCheckPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoActionsClass.takePageScreenshot (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai11_AssertTestNG.*" />
+          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai11_AssertTestNG" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai11_AssertTestNG.DemoSoftAssert" />
-      <option name="METHOD_NAME" value="testCheckPageTitle" />
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoActionsClass" />
+      <option name="METHOD_NAME" value="takePageScreenshot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoActionsClass.takePageScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoActionsClass" />
+      <option name="METHOD_NAME" value="takePageScreenshot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoRobotClass.inputText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoRobotClass" />
+      <option name="METHOD_NAME" value="inputText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DemoHardAssert.testCheckPageTitle" />
-        <item itemvalue="TestNG.DemoSoftAssert.testCheckPageTitle" />
-        <item itemvalue="TestNG.DemoSoftAssert" />
-        <item itemvalue="TestNG.DemoHardAssert" />
-        <item itemvalue="TestNG.DemoCRM_BaseTest" />
+        <item itemvalue="TestNG.DemoActionsClass.takePageScreenshot (1)" />
+        <item itemvalue="TestNG.DemoActionsClass.takePageScreenshot" />
+        <item itemvalue="TestNG.DemoRobotClass.inputText" />
+        <item itemvalue="TestNG.DemoActionsClass.copyAndPaste" />
+        <item itemvalue="TestNG.DemoActionsClass.scrollPageDownAndUp" />
       </list>
     </recent_temporary>
   </component>
