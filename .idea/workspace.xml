@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleIFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandlePopup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +37,9 @@
     &quot;accountId&quot;: &quot;8de03b1f-c470-49aa-93cb-0a5e47766397&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandlePopup.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -69,10 +75,21 @@
     "TestNG.DemoRobotClass.inputText.executor": "Run",
     "TestNG.DemoSoftAssert.executor": "Run",
     "TestNG.DemoSoftAssert.testCheckPageTitle.executor": "Run",
+    "TestNG.HandleAlert.demoHandleAlertAccept.executor": "Run",
+    "TestNG.HandleAlert.demoHandleAlertDismiss.executor": "Run",
+    "TestNG.HandleAlert.demoHandleAlertInputText.executor": "Run",
+    "TestNG.HandleIFrame.executor": "Run",
+    "TestNG.HandleIFrame.testIFrame01.executor": "Run",
+    "TestNG.HandlePopup.demoNotSwitchToTab.executor": "Run",
+    "TestNG.HandlePopup.demoOpenTab.executor": "Run",
+    "TestNG.HandlePopup.demoOpenWindow.executor": "Run",
+    "TestNG.HandlePopup.executor": "Run",
+    "TestNG.HandlePopup.testSwitchToPopup.executor": "Run",
+    "TestNG.HandlePopup.testSwitchToPopupWithPosition.executor": "Run",
     "TestNG.ManageCustomer.testCreateCustomer.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/AnhTester_SeleniumJava/BT_ProjectMaven_eCommerce"
+    "last_opened_file_path": "D:/AnhTester_SeleniumJava/SeleniumTestNG"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,18 +97,35 @@
       <recent name="com.thaonth.Bai11_AssertTestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DemoActionsClass.takePageScreenshot (1)">
-    <configuration name="DemoActionsClass.copyAndPaste" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HandleIFrame.testIFrame01">
+    <configuration name="HandleIFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
+          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoActionsClass" />
-      <option name="METHOD_NAME" value="copyAndPaste" />
+      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandleIFrame" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandleIFrame.testIFrame01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandleIFrame" />
+      <option name="METHOD_NAME" value="testIFrame01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,17 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoActionsClass.scrollPageDownAndUp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HandlePopup.demoNotSwitchToTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
+          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoActionsClass" />
-      <option name="METHOD_NAME" value="scrollPageDownAndUp" />
+      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandlePopup" />
+      <option name="METHOD_NAME" value="demoNotSwitchToTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,17 +151,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoActionsClass.takePageScreenshot (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HandlePopup.testSwitchToPopup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
+          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoActionsClass" />
-      <option name="METHOD_NAME" value="takePageScreenshot" />
+      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandlePopup" />
+      <option name="METHOD_NAME" value="testSwitchToPopup" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,35 +169,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoActionsClass.takePageScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HandlePopup.testSwitchToPopupWithPosition" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
+          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoActionsClass" />
-      <option name="METHOD_NAME" value="takePageScreenshot" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoRobotClass.inputText" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai12_Actions_Robot_Class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai12_Actions_Robot_Class" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai12_Actions_Robot_Class.DemoRobotClass" />
-      <option name="METHOD_NAME" value="inputText" />
+      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandlePopup" />
+      <option name="METHOD_NAME" value="testSwitchToPopupWithPosition" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DemoActionsClass.takePageScreenshot (1)" />
-        <item itemvalue="TestNG.DemoActionsClass.takePageScreenshot" />
-        <item itemvalue="TestNG.DemoRobotClass.inputText" />
-        <item itemvalue="TestNG.DemoActionsClass.copyAndPaste" />
-        <item itemvalue="TestNG.DemoActionsClass.scrollPageDownAndUp" />
+        <item itemvalue="TestNG.HandleIFrame.testIFrame01" />
+        <item itemvalue="TestNG.HandleIFrame" />
+        <item itemvalue="TestNG.HandlePopup.testSwitchToPopupWithPosition" />
+        <item itemvalue="TestNG.HandlePopup.testSwitchToPopup" />
+        <item itemvalue="TestNG.HandlePopup.demoNotSwitchToTab" />
       </list>
     </recent_temporary>
   </component>
