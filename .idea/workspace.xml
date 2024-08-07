@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai12_Actions_Robot_Class/DemoActionsClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai12_Actions_Robot_Class/DemoRobotClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +59,7 @@
     "TestNG.DemoActionsClass.inputTextUppercase.executor": "Run",
     "TestNG.DemoActionsClass.moveToElement.executor": "Run",
     "TestNG.DemoActionsClass.scrollPageDownAndUp.executor": "Run",
+    "TestNG.DemoActionsClass.takePageScreenshot (1).executor": "Run",
     "TestNG.DemoActionsClass.takePageScreenshot.executor": "Run",
     "TestNG.DemoAnnotation (1).executor": "Run",
     "TestNG.DemoAnnotation.executor": "Run",
@@ -73,7 +72,7 @@
     "TestNG.ManageCustomer.testCreateCustomer.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/AnhTester_SeleniumJava/SeleniumTestNG"
+    "last_opened_file_path": "D:/AnhTester_SeleniumJava/BT_ProjectMaven_eCommerce"
   }
 }]]></component>
   <component name="RecentsManager">
