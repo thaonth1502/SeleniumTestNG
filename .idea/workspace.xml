@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleIFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandlePopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleModal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +95,7 @@
       <recent name="com.thaonth.Bai11_AssertTestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HandleIFrame.testIFrame01">
+  <component name="RunManager" selected="TestNG.HandleModal.demoModal">
     <configuration name="HandleIFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
@@ -133,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandlePopup.demoNotSwitchToTab" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HandleModal.demoModal" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandlePopup" />
-      <option name="METHOD_NAME" value="demoNotSwitchToTab" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandleModal" />
+      <option name="METHOD_NAME" value="demoModal" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -189,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HandleModal.demoModal" />
         <item itemvalue="TestNG.HandleIFrame.testIFrame01" />
         <item itemvalue="TestNG.HandleIFrame" />
         <item itemvalue="TestNG.HandlePopup.testSwitchToPopupWithPosition" />
         <item itemvalue="TestNG.HandlePopup.testSwitchToPopup" />
-        <item itemvalue="TestNG.HandlePopup.demoNotSwitchToTab" />
       </list>
     </recent_temporary>
   </component>
