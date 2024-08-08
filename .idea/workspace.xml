@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="" />
+    <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleModal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +88,7 @@
     "TestNG.ManageCustomer.testCreateCustomer.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/AnhTester_SeleniumJava/SeleniumTestNG"
+    "last_opened_file_path": "D:/AutoTesting/ATW"
   }
 }]]></component>
   <component name="RecentsManager">

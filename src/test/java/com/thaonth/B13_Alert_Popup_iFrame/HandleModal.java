@@ -16,6 +16,5 @@ public class HandleModal extends BaseTest {
         WebElement modalContainer  =  driver.findElement(By.xpath("//div[@id='myModal0']//div[@class='modal-dialog']"));
         System.out.println(driver.findElement(By.xpath("//div[@id='myModal0']//div[@class = 'modal-body']")).getText());
         WebElement modalContent = modalContainer.findElement(By.xpath("//div[@id='myModal0']//a[normalize-space()='Save changes']"));
-
     }
 }
