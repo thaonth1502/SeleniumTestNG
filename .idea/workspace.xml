@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai14_JavascripExceutor/DemoJavscriptExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandleModal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,7 @@
     "TestNG.DemoCRM_BaseTest.executor": "Run",
     "TestNG.DemoHardAssert.executor": "Run",
     "TestNG.DemoHardAssert.testCheckPageTitle.executor": "Run",
+    "TestNG.DemoJavscriptExecutor.jsExecutorDemo01.executor": "Run",
     "TestNG.DemoRobotClass.inputText.executor": "Run",
     "TestNG.DemoSoftAssert.executor": "Run",
     "TestNG.DemoSoftAssert.testCheckPageTitle.executor": "Run",
@@ -88,7 +89,8 @@
     "TestNG.ManageCustomer.testCreateCustomer.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/AutoTesting/ATW"
+    "last_opened_file_path": "D:/AutoTesting/ATW",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -96,35 +98,72 @@
       <recent name="com.thaonth.Bai11_AssertTestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HandleModal.demoModal">
-    <configuration name="HandleIFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DemoJavscriptExecutor.jsExecutorDemo04">
+    <configuration name="DemoJavscriptExecutor.jsExecutorDemo01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
+          <option name="PATTERN" value="com.thaonth.Bai14_JavascripExceutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandleIFrame" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai14_JavascripExceutor" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai14_JavascripExceutor.DemoJavscriptExecutor" />
+      <option name="METHOD_NAME" value="jsExecutorDemo01" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandleIFrame.testIFrame01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoJavscriptExecutor.jsExecutorDemo02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
+          <option name="PATTERN" value="com.thaonth.Bai14_JavascripExceutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandleIFrame" />
-      <option name="METHOD_NAME" value="testIFrame01" />
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai14_JavascripExceutor" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai14_JavascripExceutor.DemoJavscriptExecutor" />
+      <option name="METHOD_NAME" value="jsExecutorDemo02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoJavscriptExecutor.jsExecutorDemo03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thaonth.Bai14_JavascripExceutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai14_JavascripExceutor" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai14_JavascripExceutor.DemoJavscriptExecutor" />
+      <option name="METHOD_NAME" value="jsExecutorDemo03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoJavscriptExecutor.jsExecutorDemo04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thaonth.Bai14_JavascripExceutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai14_JavascripExceutor" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai14_JavascripExceutor.DemoJavscriptExecutor" />
+      <option name="METHOD_NAME" value="jsExecutorDemo04" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,49 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandlePopup.testSwitchToPopup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandlePopup" />
-      <option name="METHOD_NAME" value="testSwitchToPopup" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandlePopup.testSwitchToPopupWithPosition" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandlePopup" />
-      <option name="METHOD_NAME" value="testSwitchToPopupWithPosition" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DemoJavscriptExecutor.jsExecutorDemo04" />
+        <item itemvalue="TestNG.DemoJavscriptExecutor.jsExecutorDemo03" />
+        <item itemvalue="TestNG.DemoJavscriptExecutor.jsExecutorDemo02" />
+        <item itemvalue="TestNG.DemoJavscriptExecutor.jsExecutorDemo01" />
         <item itemvalue="TestNG.HandleModal.demoModal" />
-        <item itemvalue="TestNG.HandleIFrame.testIFrame01" />
-        <item itemvalue="TestNG.HandleIFrame" />
-        <item itemvalue="TestNG.HandlePopup.testSwitchToPopupWithPosition" />
-        <item itemvalue="TestNG.HandlePopup.testSwitchToPopup" />
       </list>
     </recent_temporary>
   </component>
