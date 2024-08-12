@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai15_Waits/DemoImplicitWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai15_Waits/DemoExplicitWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai15_Waits/DemoImplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai15_Waits/DemoImplicitWait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,59 +50,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/SeleniumJava/SeleniumTestNG/suite/SuiteAnnotation.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.TestClick.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.TestSendKeys.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.contextClick.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.copyAndPaste.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.demoDragAndDropWithActionClass.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.doubleClick.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.inputTextUppercase.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.moveToElement.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.scrollPageDownAndUp.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.takePageScreenshot (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoActionsClass.takePageScreenshot.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoAnnotation (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoAnnotation.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoCRM_BaseTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoHardAssert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoHardAssert.testCheckPageTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoJavscriptExecutor.jsExecutorDemo01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoJavscriptExecutor.jsExecutorDemo02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoJavscriptExecutor.jsExecutorDemo03.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoJavscriptExecutor.jsExecutorDemo04.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoRobotClass.inputText.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoSoftAssert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DemoSoftAssert.testCheckPageTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandleAlert.demoHandleAlertAccept.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandleAlert.demoHandleAlertDismiss.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandleAlert.demoHandleAlertInputText.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandleIFrame.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandleIFrame.testIFrame01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandleModal.demoModal.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandlePopup.demoNotSwitchToTab.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandlePopup.demoOpenTab.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandlePopup.demoOpenWindow.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandlePopup.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandlePopup.testSwitchToPopup.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HandlePopup.testSwitchToPopupWithPosition.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageCustomer.testCreateCustomer.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AutoTesting/ATW&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.D:/SeleniumJava/SeleniumTestNG/suite/SuiteAnnotation.xml.executor": "Run",
+    "TestNG.DemoActionsClass.TestClick.executor": "Run",
+    "TestNG.DemoActionsClass.TestSendKeys.executor": "Run",
+    "TestNG.DemoActionsClass.contextClick.executor": "Run",
+    "TestNG.DemoActionsClass.copyAndPaste.executor": "Run",
+    "TestNG.DemoActionsClass.demoDragAndDropWithActionClass.executor": "Run",
+    "TestNG.DemoActionsClass.doubleClick.executor": "Run",
+    "TestNG.DemoActionsClass.inputTextUppercase.executor": "Run",
+    "TestNG.DemoActionsClass.moveToElement.executor": "Run",
+    "TestNG.DemoActionsClass.scrollPageDownAndUp.executor": "Run",
+    "TestNG.DemoActionsClass.takePageScreenshot (1).executor": "Run",
+    "TestNG.DemoActionsClass.takePageScreenshot.executor": "Run",
+    "TestNG.DemoAnnotation (1).executor": "Run",
+    "TestNG.DemoAnnotation.executor": "Run",
+    "TestNG.DemoCRM_BaseTest.executor": "Run",
+    "TestNG.DemoHardAssert.executor": "Run",
+    "TestNG.DemoHardAssert.testCheckPageTitle.executor": "Run",
+    "TestNG.DemoImplicitWait.demoImplicitWait.executor": "Run",
+    "TestNG.DemoJavscriptExecutor.jsExecutorDemo01.executor": "Run",
+    "TestNG.DemoJavscriptExecutor.jsExecutorDemo02.executor": "Run",
+    "TestNG.DemoJavscriptExecutor.jsExecutorDemo03.executor": "Run",
+    "TestNG.DemoJavscriptExecutor.jsExecutorDemo04.executor": "Run",
+    "TestNG.DemoRobotClass.inputText.executor": "Run",
+    "TestNG.DemoSoftAssert.executor": "Run",
+    "TestNG.DemoSoftAssert.testCheckPageTitle.executor": "Run",
+    "TestNG.HandleAlert.demoHandleAlertAccept.executor": "Run",
+    "TestNG.HandleAlert.demoHandleAlertDismiss.executor": "Run",
+    "TestNG.HandleAlert.demoHandleAlertInputText.executor": "Run",
+    "TestNG.HandleIFrame.executor": "Run",
+    "TestNG.HandleIFrame.testIFrame01.executor": "Run",
+    "TestNG.HandleModal.demoModal.executor": "Run",
+    "TestNG.HandlePopup.demoNotSwitchToTab.executor": "Run",
+    "TestNG.HandlePopup.demoOpenTab.executor": "Run",
+    "TestNG.HandlePopup.demoOpenWindow.executor": "Run",
+    "TestNG.HandlePopup.executor": "Run",
+    "TestNG.HandlePopup.testSwitchToPopup.executor": "Run",
+    "TestNG.HandlePopup.testSwitchToPopupWithPosition.executor": "Run",
+    "TestNG.ManageCustomer.testCreateCustomer.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/AutoTesting/ATW",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thaonth.Bai15_Waits" />
       <recent name="com.thaonth.Bai11_AssertTestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DemoJavscriptExecutor.jsExecutorDemo04">
+  <component name="RunManager" selected="TestNG.DemoImplicitWait.demoImplicitWait">
+    <configuration name="DemoImplicitWait.demoImplicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thaonth.Bai15_Waits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai15_Waits" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai15_Waits.DemoImplicitWait" />
+      <option name="METHOD_NAME" value="demoImplicitWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoJavscriptExecutor.jsExecutorDemo01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
@@ -175,31 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandleModal.demoModal" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thaonth.B13_Alert_Popup_iFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.B13_Alert_Popup_iFrame" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.B13_Alert_Popup_iFrame.HandleModal" />
-      <option name="METHOD_NAME" value="demoModal" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DemoImplicitWait.demoImplicitWait" />
         <item itemvalue="TestNG.DemoJavscriptExecutor.jsExecutorDemo04" />
         <item itemvalue="TestNG.DemoJavscriptExecutor.jsExecutorDemo03" />
         <item itemvalue="TestNG.DemoJavscriptExecutor.jsExecutorDemo02" />
         <item itemvalue="TestNG.DemoJavscriptExecutor.jsExecutorDemo01" />
-        <item itemvalue="TestNG.HandleModal.demoModal" />
       </list>
     </recent_temporary>
   </component>
