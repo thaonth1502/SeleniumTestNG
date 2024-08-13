@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thaonth/constants/ConfigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thaonth/keywords/WebUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai17_PageObjectModel/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai17_PageObjectModel/testcases/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suite/SuiteLoginTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suite/SuiteLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/suite/SuiteLoginTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
