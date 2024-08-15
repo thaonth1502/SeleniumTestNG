@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="" />
+    <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/pages/CommonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/pages/CustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/pages/Invoices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/testcases/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/testcases/DashboardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +44,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/com/thaonth/B13_Alert_Popup_iFrame/HandlePopup.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/thaonth/Bai19_NavigationPage/pages/LoginPage.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -50,11 +61,14 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CustomerTest.testAddNewCustomer.executor": "Run",
     "TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteDashboardTest.xml.executor": "Run",
     "TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteLoginTest.xml.executor": "Run",
     "TestNG.D:/SeleniumJava/SeleniumTestNG/suite/SuiteAnnotation.xml.executor": "Run",
     "TestNG.DashboardTest.checkQuickStatisticsSection.executor": "Run",
     "TestNG.DashboardTest.checkQuickStatisticsSectionDisplay.executor": "Run",
+    "TestNG.DashboardTest.checkTotalQuickStatisticsSection.executor": "Run",
+    "TestNG.DashboardTest.executor": "Run",
     "TestNG.DemoActionsClass.TestClick.executor": "Run",
     "TestNG.DemoActionsClass.TestSendKeys.executor": "Run",
     "TestNG.DemoActionsClass.contextClick.executor": "Run",
@@ -102,56 +116,37 @@
     "TestNG.ManageCustomer.testCreateCustomer.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/AnhTester_SeleniumJava/SeleniumTestNG/src/test/java/com/thaonth/Bai18_PageFactory/pages",
+    "last_opened_file_path": "D:/AnhTester_SeleniumJava/SeleniumTestNG/src/test/java/com/thaonth/Bai19_ConnectPageInPOM/testcases",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai19_ConnectPageInPOM\testcases" />
       <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai18_PageFactory\pages" />
       <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai18_PageFactory" />
       <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\suite" />
       <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\main\java\com\thaonth\keywords" />
-      <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\main\java\com\thaonth\constants" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thaonth.Bai19_ConnectPageInPOM.pages" />
       <recent name="com.thaonth.Bai18_PageFactory.testcases" />
       <recent name="com.thaonth.Bai15_Waits" />
       <recent name="com.thaonth.Bai11_AssertTestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteDashboardTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/suite/SuiteDashboardTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteLoginTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/suite/SuiteLoginTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashboardTest.checkQuickStatisticsSection" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CustomerTest.testAddNewCustomer">
+    <configuration name="CustomerTest.testAddNewCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai17_PageObjectModel.testcases.*" />
+          <option name="PATTERN" value="com.thaonth.Bai19_NavigationPage.testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai17_PageObjectModel.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai17_PageObjectModel.testcases.DashboardTest" />
-      <option name="METHOD_NAME" value="checkQuickStatisticsSection" />
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai19_NavigationPage.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai19_NavigationPage.testcases.CustomerTest" />
+      <option name="METHOD_NAME" value="testAddNewCustomer" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,17 +154,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashboardTest.checkQuickStatisticsSectionDisplay" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DashboardTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai17_PageObjectModel.testcases.*" />
+          <option name="PATTERN" value="com.thaonth.Bai19_NavigationPage.testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai17_PageObjectModel.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai17_PageObjectModel.testcases.DashboardTest" />
-      <option name="METHOD_NAME" value="checkQuickStatisticsSectionDisplay" />
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai19_NavigationPage.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai19_NavigationPage.testcases.DashboardTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardTest.checkTotalQuickStatisticsSection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thaonth.Bai19_NavigationPage.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai19_NavigationPage.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai19_NavigationPage.testcases.DashboardTest" />
+      <option name="METHOD_NAME" value="checkTotalQuickStatisticsSection" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,13 +206,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.testLoginSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thaonth.Bai19_NavigationPage.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thaonth.Bai19_NavigationPage.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai19_NavigationPage.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="testLoginSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CustomerTest.testAddNewCustomer" />
+        <item itemvalue="TestNG.DashboardTest" />
+        <item itemvalue="TestNG.DashboardTest.checkTotalQuickStatisticsSection" />
+        <item itemvalue="TestNG.LoginTest.testLoginSuccess" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteDashboardTest.xml" />
-        <item itemvalue="TestNG.DashboardTest.checkQuickStatisticsSectionDisplay" />
-        <item itemvalue="TestNG.DashboardTest.checkQuickStatisticsSection" />
-        <item itemvalue="TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteLoginTest.xml" />
       </list>
     </recent_temporary>
   </component>
