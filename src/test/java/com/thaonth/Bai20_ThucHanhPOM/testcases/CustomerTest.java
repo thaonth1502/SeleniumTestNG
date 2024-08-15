@@ -1,9 +1,9 @@
-package com.thaonth.Bai19_NavigationPage.testcases;
+package com.thaonth.Bai20_ThucHanhPOM.testcases;
 
-import com.thaonth.Bai19_NavigationPage.pages.CommonPage;
-import com.thaonth.Bai19_NavigationPage.pages.CustomerPage;
-import com.thaonth.Bai19_NavigationPage.pages.DashboardPage;
-import com.thaonth.Bai19_NavigationPage.pages.LoginPage;
+import com.thaonth.Bai20_ThucHanhPOM.pages.CommonPage;
+import com.thaonth.Bai20_ThucHanhPOM.pages.CustomerPage;
+import com.thaonth.Bai20_ThucHanhPOM.pages.DashboardPage;
+import com.thaonth.Bai20_ThucHanhPOM.pages.LoginPage;
 import com.thaonth.common.BaseTest;
 import com.thaonth.constants.ConfigData;
 import org.testng.annotations.Test;
@@ -21,7 +21,9 @@ public class CustomerTest extends BaseTest {
         dashboardPage = loginPage.logInCRM(ConfigData.EMAIL, ConfigData.PASSWORD);
 
         customerPage = loginPage.clickMenuCustomer();
-        customerPage.inputDataAddNewCustomerForm("ThaoNTH");
-        customerPage.checkCustomerDetail("ThaoNTH");
+        customerPage.clickAddNewButton();
+        customerPage.inputDataAddNewCustomerForm("15082024 Anh Tester");
+        customerPage.clickSaveButton();
+      //  customerPage.checkCustomerDetail("ThaoNTH");
     }
 }
