@@ -6,7 +6,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import java.security.Key;
 
 public class CustomerPage extends CommonPage {
     private WebDriver driver;
@@ -14,7 +13,7 @@ public class CustomerPage extends CommonPage {
     public CustomerPage(WebDriver driver){
         super(driver);
         this.driver = driver;
-        new WebUI(driver);
+//        new WebUI(driver);
     }
 
     By btnAddNewCustomer = By.xpath("//a[normalize-space()='New Customer']");
@@ -37,17 +36,27 @@ public class CustomerPage extends CommonPage {
     By inputCountry = By.xpath("//button[@data-id='country']/following-sibling::div//input");
     By btnSave = By.xpath("//div[@id='profile-save-section']//button[normalize-space()='Save']");
     By alertMessage = By.xpath("//span[@class='alert-title']");
+    By totalCustomer = By.xpath("//span[normalize-space() = 'Total Customers']/preceding-sibling::span");
+
+
     //Ham xư ly cho Customer Page
+    public String getTotalCustomer(){
+        WebUI.waitForPageLoaded(driver);
+        return WebUI.getText(totalCustomer);
+    }
+
     public void clickAddNewButton(){
+        WebUI.waitForPageLoaded(driver);
         WebUI.clickElement(btnAddNewCustomer);
 
     }
     public void clickSaveButton(){
+        WebUI.waitForPageLoaded(driver);
         WebUI.clickElement(btnSave);
         WebUI.sleep(2);
         //Verify alert Message
         Assert.assertTrue(WebUI.elementDisplay(alertMessage),"FAIL!!! Alert Message not display");
-        Assert.assertEquals(WebUI.getText(alertMessage), "Customer added successfully", "FAIL!!! Content alert message not match");
+        Assert.assertEquals(WebUI.getText(alertMessage), "Customer added successfully.", "FAIL!!! Content alert message not match");
     }
 
     public void inputDataAddNewCustomerForm(String customerName){
@@ -86,14 +95,28 @@ public class CustomerPage extends CommonPage {
 
     }
 
-    public void checkCustomerDetail(String customerName){
+    public void checkCustomerInTableList(String customerName){
         WebUI.waitForPageLoaded(driver);
         WebUI.clickElement(menuCustomers);
         WebUI.waitForPageLoaded(driver);
         WebUI.inputText(inputSearchCustomer, customerName);
-        WebUI.sleep(2);
+        WebUI.sleep(1);
+
+        //Check customer name display in table
         Assert.assertTrue(WebUI.elementDisplay(firstItemCustomerName), "FAIL!! Customer Name is display");
         Assert.assertEquals(WebUI.getText(firstItemCustomerName),customerName, "FAIL!!! Customer name not match.");
-
+    }
+    public void checkCustomerDetail(String customerName){
+        //Check customer detail in customer page
+        WebUI.clickElement(firstItemCustomerName);
+        Assert.assertEquals(driver.findElement(inputCompany).getAttribute("value"),customerName, "FAIL!!! The Customer Name not match");
+        Assert.assertEquals(driver.findElement(inpVat).getAttribute("value"),"10", "FAIL!!! The VAT not match");
+        Assert.assertEquals(driver.findElement(inputWebsite).getAttribute("value"),"htts://anhtester.com", "FAIL!!! The website not match");
+        Assert.assertEquals(driver.findElement(inputPhone).getAttribute("value"),"023456789", "FAIL!!! The Phone number not match");
+        Assert.assertEquals(driver.findElement(dropdownGroup).getAttribute("title"),"VIP", "FAIL!!! The Group not match");
+        Assert.assertEquals(driver.findElement(dropdownCurrency).getAttribute("title"),"USD", "FAIL!!! The Currency not match");
+        Assert.assertEquals(driver.findElement(inputCity).getAttribute("value"),"Hanoi" , "FAIL!!! The city not match");
+        Assert.assertEquals(driver.findElement(inputStage).getAttribute("value"),"Caugiay" , "FAIL!!! The Stage not match");
+        Assert.assertEquals(driver.findElement(selectDefaultLanguage).getAttribute("title"),"Vietnamese", "FAIL!!! The Language not match");
     }
 }
