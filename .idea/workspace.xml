@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai20_ThucHanhPOM/pages/ProjectPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai20_ThucHanhPOM/pages/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai20_ThucHanhPOM/pages/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai20_ThucHanhPOM/pages/CustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai20_ThucHanhPOM/pages/CustomerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai20_ThucHanhPOM/testcases/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai20_ThucHanhPOM/testcases/CustomerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
