@@ -1,8 +1,8 @@
 package com.thaonth.Bai16_ThucHanh;
 
-import com.thaont.constants.ConfigData;
-import com.thaont.keywords.WebUI;
-import common.BaseTest;
+import com.thaonth.common.BaseTest;
+import com.thaonth.constants.ConfigData;
+import com.thaonth.keywords.WebUI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
