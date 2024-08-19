@@ -1,4 +1,4 @@
-package com.thaonth.Bai22_23_ThucHanh.testcases;
+package com.thaonth.Bai24_Parameter_MultiBrowser.testcases;
 
 import com.thaonth.Bai20_ThucHanhPOM.pages.*;
 import com.thaonth.common.BaseTest;

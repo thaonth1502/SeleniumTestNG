@@ -2,10 +2,9 @@ package com.thaonth.common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.*;
 
 import java.time.Duration;
 
@@ -14,16 +13,56 @@ public class BaseTest {
     public WebDriver driver;
 
     @BeforeMethod
-    public void createDriver(){
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
-        driver.manage().window().maximize();
+    @Parameters({"browser"})
+    public void createDriver(@Optional("chrome") String browser) {
+        setupDriver(browser);
     }
+
+    public WebDriver setupDriver(String browserName) {
+        switch (browserName.trim().toLowerCase()) {
+            case "chrome":
+                driver = initChromeDriver();
+                break;
+            case "firefox":
+                driver = initFirefoxDriver();
+                break;
+            case "edge":
+                driver = initEdgeDriver();
+                break;
+            default:
+                System.out.println("Browser: " + browserName + " is invalid, Launching Chrome as browser of choice...");
+                driver = initChromeDriver();
+        }
+        return driver;
+    }
+
+    private WebDriver initChromeDriver() {
+        System.out.println("Launching Chrome browser...");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        return driver;
+    }
+
+    private WebDriver initEdgeDriver() {
+        System.out.println("Launching Edge browser...");
+        driver = new EdgeDriver();
+        driver.manage().window().maximize();
+        return driver;
+    }
+
+    private WebDriver initFirefoxDriver() {
+        System.out.println("Launching Firefox browser...");
+        driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        return driver;
+    }
+
 
     @AfterMethod
     public void closeDriver(){
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     public void sleep(double second){

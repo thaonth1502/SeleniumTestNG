@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be338c8f-d539-444b-9788-37ff54730695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thaonth/keywords/WebKeywords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/pages/CommonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/pages/CustomerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/pages/Invoices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/pages/ProjectPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/testcases/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/testcases/DashboardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/testcases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/pages/CommonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/pages/CustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/pages/Invoices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/pages/ProjectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/testcases/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/testcases/DashboardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai24_Parameter_MultiBrowser/testcases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/suite/SuiteMultiBrowser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/suite/SuiteParameter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thaonth/keywords/WebKeyword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai16_ThucHanh/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai16_ThucHanh/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/testcases/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/Bai22_23_ThucHanh/testcases/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thaonth/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thaonth/common/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,8 @@
     "TestNG.CustomerTest.testAddNewCustomer.executor": "Run",
     "TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteDashboardTest.xml.executor": "Run",
     "TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteLoginTest.xml.executor": "Run",
+    "TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteMultiBrowser.xml.executor": "Run",
+    "TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteParameter.xml.executor": "Run",
     "TestNG.D:/SeleniumJava/SeleniumTestNG/suite/SuiteAnnotation.xml.executor": "Run",
     "TestNG.DashboardTest.checkQuickStatisticsSection.executor": "Run",
     "TestNG.DashboardTest.checkQuickStatisticsSectionDisplay.executor": "Run",
@@ -121,17 +124,17 @@
     "TestNG.ManageCustomer.testCreateCustomer.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SeleniumJava/SeleniumTestNG/src/test/java/com/thaonth/Bai22_23_ThucHanh/testcases",
+    "last_opened_file_path": "D:/AnhTester_SeleniumJava/SeleniumTestNG/suite",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\suite" />
+      <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai24_Parameter_MultiBrowser" />
       <recent name="D:\SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai22_23_ThucHanh\testcases" />
       <recent name="D:\SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai22_23_ThucHanh\pages" />
       <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai20_ThucHanhPOM\testcases" />
-      <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai20_ThucHanhPOM\pages" />
-      <recent name="D:\AnhTester_SeleniumJava\SeleniumTestNG\src\test\java\com\thaonth\Bai19_ConnectPageInPOM\testcases" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.thaonth.Bai19_ConnectPageInPOM.pages" />
@@ -140,19 +143,21 @@
       <recent name="com.thaonth.Bai11_AssertTestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="CustomerTest.testAddNewCustomer (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteMultiBrowser.xml">
+    <configuration name="D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteMultiBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai20_ThucHanhPOM.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai20_ThucHanhPOM.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai20_ThucHanhPOM.testcases.CustomerTest" />
-      <option name="METHOD_NAME" value="testAddNewCustomer" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/suite/SuiteMultiBrowser.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteParameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/suite/SuiteParameter.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -212,31 +217,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testLoginSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thaonth.Bai22_23_ThucHanh.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thaonth.Bai22_23_ThucHanh.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.thaonth.Bai22_23_ThucHanh.testcases.LoginTest" />
-      <option name="METHOD_NAME" value="testLoginSuccess" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteMultiBrowser.xml" />
+        <item itemvalue="TestNG.D:/AnhTester_SeleniumJava/SeleniumTestNG/suite/SuiteParameter.xml" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.testLoginFailWithPasswordInvalid" />
         <item itemvalue="TestNG.LoginTest.testLoginFailWithEmailInvalid" />
-        <item itemvalue="TestNG.LoginTest.testLoginSuccess" />
-        <item itemvalue="TestNG.CustomerTest.testAddNewCustomer (1)" />
       </list>
     </recent_temporary>
   </component>

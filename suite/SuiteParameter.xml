@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Demo Parameter" verbose="1">
+    <test name="Demo Parameter">
+        <parameter name="customerName" value="Anh Tester 19082024C1"></parameter>
+        <classes>
+            <class name="com.thaonth.Bai22_23_ThucHanh.testcases.CustomerTest"/>
+        </classes>
+    </test>
+</suite>
